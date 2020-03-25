@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;mob&#x2F;living&#x2F;silicon&#x2F;robot - &#x2F;tg&#x2F; Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">&#x2F;tg&#x2F; Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="mob/living/silicon/robot.html#var">Var Details</a> - <a href="mob/living/silicon/robot.html#proc">Proc Details</a></header>
+<main>
+<h1>Cyborg <aside>/<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/<a href="mob/living/silicon.html">silicon</a>/<a href="mob/living/silicon/robot.html">robot</a></aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/51afca0dfc58bc50179b90db24c85b51b47601e4/code/modules/mob/living/silicon/robot/robot.dm#L1">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;silicon&#x2F;robot&#x2F;robot.dm 1"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="mob/living/silicon/robot.html#var/ident">ident</a></th><td>Random serial number generated for each cyborg upon its initialization</td></tr>
+            <tr><th><a href="mob/living/silicon/robot.html#var/opened">opened</a></th><td>If this is a path, this gets created as an object in Initialize.</td></tr><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="mob/living/silicon/robot.html#proc/Exited">Exited</a></th><td>Checking Exited() to detect if a hat gets up and walks off.
+Drones and pAIs might do this, after all.</td></tr>
+            <tr><th><a href="mob/living/silicon/robot.html#proc/deploy_init">deploy_init</a></th><td>deploy_init: Deploys AI unit into AI shell</td></tr>
+            <tr><th><a href="mob/living/silicon/robot.html#proc/make_shell">make_shell</a></th><td>make_shell: Makes an AI shell out of a cyborg unit</td></tr>
+            <tr><th><a href="mob/living/silicon/robot.html#proc/revert_shell">revert_shell</a></th><td>revert_shell: Reverts AI shell back into a normal cyborg unit</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/ident"><aside class="declaration">var </aside>ident
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/51afca0dfc58bc50179b90db24c85b51b47601e4/code/modules/mob/living/silicon/robot/robot.dm#L55">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;silicon&#x2F;robot&#x2F;robot.dm 55"/></a></h3>
+        <p>Random serial number generated for each cyborg upon its initialization</p><h3 id="var/opened"><aside class="declaration">var </aside>opened
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/51afca0dfc58bc50179b90db24c85b51b47601e4/code/modules/mob/living/silicon/robot/robot.dm#L49">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;silicon&#x2F;robot&#x2F;robot.dm 49"/></a></h3>
+        <p>If this is a path, this gets created as an object in Initialize.</p><h2 id="proc">Proc Details</h2><h3 id="proc/Exited"><aside class="parent"><a title="/atom" href="atom.html#proc/Exited">&uarr;</a></aside>Exited<aside>(/<a href="atom.html">atom</a>/A) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/51afca0dfc58bc50179b90db24c85b51b47601e4/code/modules/mob/living/silicon/robot/robot.dm#L864">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;silicon&#x2F;robot&#x2F;robot.dm 864"/></a></aside>
+        </h3>
+        <p>Checking Exited() to detect if a hat gets up and walks off.
+Drones and pAIs might do this, after all.</p><h3 id="proc/deploy_init"><aside class="declaration">proc </aside>deploy_init<aside>(/<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/<a href="mob/living/silicon.html">silicon</a>/<a href="mob/living/silicon/ai.html">ai</a>/AI) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/51afca0dfc58bc50179b90db24c85b51b47601e4/code/modules/mob/living/silicon/robot/robot.dm#L912">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;silicon&#x2F;robot&#x2F;robot.dm 912"/></a></aside>
+        </h3>
+        <p>deploy_init: Deploys AI unit into AI shell</p>
+<p>Arguments:</p>
+<ul>
+<li>AI - AI unit that initiated the deployment into the AI shell</li>
+</ul><h3 id="proc/make_shell"><aside class="declaration">proc </aside>make_shell<aside>(/<a href="obj.html">obj</a>/<a href="obj/item.html">item</a>/borg/upgrade/ai/board) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/51afca0dfc58bc50179b90db24c85b51b47601e4/code/modules/mob/living/silicon/robot/robot.dm#L876">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;silicon&#x2F;robot&#x2F;robot.dm 876"/></a></aside>
+        </h3>
+        <p>make_shell: Makes an AI shell out of a cyborg unit</p>
+<p>Arguments:</p>
+<ul>
+<li>board - B.O.R.I.S. module board used for transforming the cyborg into AI shell</li>
+</ul><h3 id="proc/revert_shell"><aside class="declaration">proc </aside>revert_shell<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/51afca0dfc58bc50179b90db24c85b51b47601e4/code/modules/mob/living/silicon/robot/robot.dm#L891">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;silicon&#x2F;robot&#x2F;robot.dm 891"/></a></aside>
+        </h3>
+        <p>revert_shell: Reverts AI shell back into a normal cyborg unit</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/tgstation/tgstation/tree/51afca0dfc58bc50179b90db24c85b51b47601e4">51afca0</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.2.0</a></footer>
+</body>
+</html>
